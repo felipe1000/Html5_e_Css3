@@ -5,8 +5,9 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
 }
 p{
     width: 100%;
@@ -15,34 +16,51 @@ p{
 }
 header{
     background-color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 header>h1{
     font-family: 'Passion One', cursive;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px 0px 0px 0px;
-    font-size: 425%;
+    font-variant: small-caps;
+    padding: 50px 0px 0px 0px;
+    
 }
 header aside {
     text-align: center;
     color: #ffffff;
-    padding: 0px 0px 20px 0px;
+    padding: 0px 0px 50px 0px;
     font-size: 15px;
 }
-header aside a {
+a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
 
 }
-header aside a:hover {
+a:hover {
     text-decoration:underline;
 
 }
+section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+}
 section.fundo-normal{
     background-color: #ffffff;
+    color: #000000;
 }
-section article{
-    width: 40%;
-    font-size: 100%;
+section.fundo-imagem{
+    background-color: #303030;
+    color: #ffffff;
+}
+section.fundo-imagem > 
+p{
+    background-color:#000000;
+    width: 500px;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
 }
