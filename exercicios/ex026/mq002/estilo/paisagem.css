@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*COnfigurações para tela deitada (orientation: landscape)*/
+
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: bottom left;
+}
